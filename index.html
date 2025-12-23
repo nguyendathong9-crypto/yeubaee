@@ -91,7 +91,7 @@
         bgMusic.loop = true; bgMusic.volume = 1.0;
 
         const loader = new THREE.TextureLoader();
-        const photoFiles = ['anh1.jpeg', 'anh2.jpeg', 'anh3.jpeg', 'anh4.jpeg', 'anh5.jpeg'];
+        const photoFiles = ['./anh1.jpeg', './anh2.jpeg', './anh3.jpeg', './anh4.jpeg', './anh5.jpeg'];
         const photoTextures = [];
         photoFiles.forEach((f, i) => photoTextures[i] = loader.load(f));
 
